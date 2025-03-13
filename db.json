@@ -1,0 +1,21 @@
+{
+  "usuarios": [
+    {
+      "id": "e96b",
+      "username": "anmer",
+      "email": "andresgpleys@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "0043",
+      "username": "jhon",
+      "email": "andresgpleys@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "c347",
+      "email": "andreselculion2002@gmail.com",
+      "username": "Andres Mena"
+    }
+  ]
+}

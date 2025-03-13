@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Bits</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <p>Practica tus conocimientos en la categoría que prefieras.</p>
+
+        <div class="categories">
+            <a href="html.html" class="category" data-category="html">
+                <div class="progress-container">
+                    <svg class="progress-circle" width="100" height="100">
+                        <circle cx="50" cy="50" r="40"></circle>
+                        <circle id="progress-html" cx="50" cy="50" r="40" class="progress"></circle>
+                    </svg>
+                    <img src="../assets/img/image.png" alt="HTML">
+                </div>
+                <span>HTML</span>
+            </a>
+            <a href="css.html" class="category" data-category="css">
+                <div class="progress-container">
+                    <svg class="progress-circle" width="100" height="100">
+                        <circle cx="50" cy="50" r="40"></circle>
+                        <circle id="progress-css" cx="50" cy="50" r="40" class="progress"></circle>
+                    </svg>
+                    <img src="../assets/img/image copy.png" alt="CSS">
+                </div>
+                <span>CSS</span>
+            </a>
+            <a href="javascript.html" class="category" data-category="javascript">
+                <div class="progress-container">
+                    <svg class="progress-circle" width="100" height="100">
+                        <circle cx="50" cy="50" r="40"></circle>
+                        <circle id="progress-javascript" cx="50" cy="50" r="40" class="progress"></circle>
+                    </svg>
+                    <img src="../assets/img/image copy 2.png" alt="JavaScript">
+                </div>
+                <span>JS</span>
+            </a>
+            <a href="figma.html" class="category" data-category="figma">
+                <div class="progress-container">
+                    <svg class="progress-circle" width="100" height="100">
+                        <circle cx="50" cy="50" r="40"></circle>
+                        <circle id="progress-figma" cx="50" cy="50" r="40" class="progress"></circle>
+                    </svg>
+                    <img src="../assets/img/image copy 3.png" alt="Figma">
+                </div>
+                <span>FIGMA</span>
+            </a>
+            <a href="ux.html" class="category" data-category="ux">
+                <div class="progress-container">
+                    <svg class="progress-circle" width="100" height="100">
+                        <circle cx="50" cy="50" r="40"></circle>
+                        <circle id="progress-ux" cx="50" cy="50" r="40" class="progress"></circle>
+                    </svg>
+                    <img src="../assets/img/image copy 4.png" alt="UX">
+                </div>
+                    
+                <span>UX</span>
+            </a>
+        </div>
+
+        <!-- Botón para reiniciar progreso -->
+        <button id="reset-progress">Reiniciar Progreso</button>
+
+        <!-- Navbar con accesibilidad mejorada -->
+        <nav role="navigation">
+            <a href="#" class="active" aria-label="Inicio"><i class="fas fa-home"></i> Home</a>
+            <a href="#" aria-label="Estadísticas"><i class="fas fa-chart-bar"></i> Estadísticas</a>
+            <a href="#" aria-label="Perfil"><i class="fas fa-user"></i> Perfil</a>
+        </nav>
+    </div>
+
+    <script src="../js/home.js"></script>
+</body>
+</html>

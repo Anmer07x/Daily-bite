@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Bits - Registro</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <section id="login">
+        <div class="login-container">
+            <i class="fa-solid fa-code logo"></i>
+            <div class="register-container">
+                <div class="card">
+                    <h1>Registro</h1>
+                    <input type="text" id="username" placeholder="Nombre de usuario" autofocus>
+                    <input type="email" id="email" placeholder="Correo electrónico" autofocus>
+                    <input type="password" id="password" placeholder="Contraseña">
+                    <input type="password" id="confirm-password" placeholder="Confirmar contraseña">
+                    
+                    <p>¿Ya tienes una cuenta? <a href="../index.html">Iniciar sesión</a></p>
+
+                    <button id="start" class="start-btn">Registrarse</button>
+
+                    <!-- Botón para registrar con Google -->
+                    <button id="google-register" class="google-btn">
+                        <i class="fa-brands fa-google"></i> Registrar con Google
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/register.js"></script>
+    <script type="module" src="../js/googleAuth.js"></script>
+</body>
+
+</html>

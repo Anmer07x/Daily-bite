@@ -1,0 +1,124 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+/* Contenedor principal */
+.quiz-container {
+    
+    color: white;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    
+}
+
+/* Header */
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-icon {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Barra de progreso */
+.progress-bar {
+    width: 60%;
+    height: 8px;
+    background: #444;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    width: 0%;
+    height: 100%;
+    background: #42f57e;
+    transition: width 0.3s;
+}
+
+/* Vidas */
+.lives {
+    display: flex;
+    align-items: center;
+}
+
+.heart {
+    color: red;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+/* Pregunta */
+.question-section {
+    margin-top: 20px;
+}
+
+.avatar {
+    width: 100px;
+    margin-bottom: 15px;
+
+}
+
+/* Opciones */
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+
+.option {
+    background: #232E35;
+    color: white;
+    border: 2px solid white;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    
+}
+
+.option:hover {
+    background: #444;
+}
+
+/* Botón comprobar */
+#check-btn {
+    background: #B19CD9;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+#check-btn:hover {
+    background: #A084CA;
+}
+
+/* Respuestas correctas e incorrectas */
+.correct {
+    background: #42f57e !important;
+}
+
+.wrong {
+    background: #ff4d4d !important;
+}
